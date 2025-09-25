@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta name="google-site-verification" content="qjFbrIX1tA_UKo2E_V_OzxV_B2pGwSvK2iiyalZ4tx4" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7836659036507838"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Adhyapka - Mukesh Kumar Deshmukh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Google AdSense Code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7836659036507838" crossorigin="anonymous"></script>
+    
+    <style>
+        :root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+            --accent: #f093fb;
+            --dark: #2d3748;
+            --light: #f7fafc;
+            --text: #4a5568;
+            --success: #48bb78;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            color: var(--text);
+            padding-bottom: 70px;
+            line-height: 1.6;
+        }
+
+        /* Ad Container */
+        .ad-container {
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 10px;
+            border: 1px dashed #ddd;
+        }
+
+        .ad-label {
+            position: absolute;
+            top: -8px;
+            left: 10px;
+            background: var(--primary);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        /* Bottom Navigation */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 12px 0;
+            box-shadow: 0 -2px 20px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: var(--text);
+            padding: 8px 16px;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-item.active {
+            color: var(--primary);
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .nav-item i {
+            font-size: 1.4rem;
+            margin-bottom: 4px;
+        }
+
+        .nav-text {
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        /* Page Container */
+        .page-container {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .page-container.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Common Section Styles */
+        .section {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        /* Home Page */
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 0 0 30px 30px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin: 0 auto 20px;
+            object-fit: cover;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .hero-title {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-subtitle {
+            opacity: 0.9;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+
+        /* Content Page */
+        .content-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .content-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .content-card i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+            animation: modalFadeIn 0.3s ease;
+        }
+
+        @keyframes modalFadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--text);
+        }
+
+        .modal-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h2 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .modal-body {
+            line-height: 1.8;
+        }
+
+        .modal-body p {
+            margin-bottom: 15px;
+        }
+
+        .modal-body ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .modal-body li {
+            margin-bottom: 8px;
+        }
+
+        /* Social Media Section in Content Page */
+        .social-media-section {
+            margin-top: 30px;
+        }
+
+        .social-platforms {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .platform-card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .platform-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .platform-card.youtube { border-color: #FF0000; }
+        .platform-card.instagram { border-color: #E4405F; }
+        .platform-card.facebook { border-color: #1877F2; }
+        .platform-card.telegram { border-color: #0088cc; }
+        .platform-card.twitter { border-color: #000000; }
+        .platform-card.linkedin { border-color: #0077B5; }
+
+        .platform-card i {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .platform-card.youtube i { color: #FF0000; }
+        .platform-card.instagram i { color: #E4405F; }
+        .platform-card.facebook i { color: #1877F2; }
+        .platform-card.telegram i { color: #0088cc; }
+        .platform-card.twitter i { color: #000000; }
+        .platform-card.linkedin i { color: #0077B5; }
+
+        /* Search Page */
+        .search-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            border: none;
+            border-radius: 50px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 1rem;
+        }
+
+        .search-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .search-results {
+            display: grid;
+            gap: 10px;
+        }
+
+        .result-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+            transition: transform 0.3s ease;
+        }
+
+        .result-item:hover {
+            transform: translateX(5px);
+        }
+
+        /* About Page */
+        .about-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .about-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            object-fit: cover;
+            border: 4px solid var(--primary);
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--primary);
+        }
+
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background: white;
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s ease;
+            border: 1px solid #eee;
+        }
+
+        .social-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .social-link i {
+            font-size: 1.2rem;
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .youtube { color: #FF0000; border-left: 4px solid #FF0000; }
+        .facebook { color: #1877F2; border-left: 4px solid #1877F2; }
+        .instagram { color: #E4405F; border-left: 4px solid #E4405F; }
+        .twitter { color: #000000; border-left: 4px solid #000000; }
+        .telegram { color: #0088cc; border-left: 4px solid #0088cc; }
+        .linkedin { color: #0077B5; border-left: 4px solid #0077B5; }
+
+        /* About Content Styling */
+        .about-content h3 {
+            color: var(--primary);
+            margin: 20px 0 10px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+
+        .about-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .about-content ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .about-content li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .about-content li:before {
+            content: "▸";
+            color: var(--primary);
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .mission-box {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        /* Contact Page */
+        .contact-form {
+            display: grid;
+            gap: 15px;
+        }
+
+        .form-group {
+            display: grid;
+            gap: 5px;
+        }
+
+        .form-label {
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .form-input, .form-textarea {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-input:focus, .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Quick Actions */
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .action-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s ease;
+            border: 1px solid #eee;
+        }
+
+        .action-btn i {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Responsive Design */
+        @media (min-width: 768px) {
+            .bottom-nav {
+                max-width: 500px;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 30px 30px 0 0;
+                bottom: 20px;
+            }
+            
+            .page-container {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            
+            .social-links {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .quick-actions {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            .content-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .social-platforms {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Page -->
+    <div id="home-page" class="page-container active">
+        <div class="hero-section">
+            <div class="profile-img">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <h1 class="hero-title">Mukesh Kumar Deshmukh</h1>
+            <p class="hero-subtitle">Founder - Dear Adhyapka</p>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">100k+</span>
+                    <span class="stat-label">YouTube Subs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Videos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Followers</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <!-- Ad Container -->
+            <div class="card">
+                <div class="ad-label">Advertisement</div>
+                <div class="ad-container">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-7836659036507838"
+                         data-ad-slot="2499869623"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Quick Connect</h3>
+                <div class="quick-actions">
+                    <a href="https://youtube.com/@dearadhyapak?si=l3sYRWFGrhODUBY8" target="_blank" class="action-btn youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://www.instagram.com/dearadhyapak?igsh=MXdpbmFxc3ExdXA3cw==" target="_blank" class="action-btn instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com/share/1C1Szfj1Hm/" target="_blank" class="action-btn facebook">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://t.me/Dearadhyapak" target="_blank" class="action-btn telegram">
+                        <i class="fab fa-telegram"></i>
+                        <span>Telegram</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Latest Content</h3>
+                <div class="content-grid">
+                    <div class="content-card" id="web-dev-card">
+                        <i class="fas fa-play-circle"></i>
+                        <h4>Web Development</h4>
+                        <p>HTML, CSS, JavaScript Tutorials</p>
+                    </div>
+                    <div class="content-card" id="education-tips-card">
+                        <i class="fas fa-book"></i>
+                        <h4>Education Tips</h4>
+                        <p>Study Techniques & Strategies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Web Development Modal -->
+    <div class="modal" id="web-dev-modal">
+        <div class="modal-content">
+            <button class="close-modal" id="close-web-dev-modal">&times;</button>
+            <div class="modal-header">
+                <h2>Web Development Tutorials</h2>
+                <p>HTML, CSS, JavaScript Tutorials by Mukesh Kumar Deshmukh</p>
+            </div>
+            <div class="modal-body">
+                <h3>About Me</h3>
+                <p>नमस्ते! मैं मुकेश कुमार देशमुख हूँ, एक शिक्षक और वेब डेवलपर। मैंने "Dear Adhyapka" प्लेटफॉर्म की शुरुआत की है जहाँ मैं छात्रों को वेब डेवलपमेंट और प्रोग्रामिंग की शिक्षा मुफ्त में प्रदान करता हूँ।</p>
+                
+                <h3>मेरी योग्यता</h3>
+                <ul>
+                    <li>वेब डेवलपमेंट में 5+ वर्षों का अनुभव</li>
+                    <li>HTML, CSS, JavaScript, React.js में विशेषज्ञता</li>
